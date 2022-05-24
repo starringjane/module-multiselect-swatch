@@ -1,0 +1,19 @@
+{
+  "name": "starringjane/module-multiselect-swatch",
+  "description": "Add Multiselect Swatches compatible with ElasticSuite for Magento 2",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~7.4.0",
+    "magento/framework": "*",
+    "smile/module-elasticsuite-swatches": "~2.8.0 || ~2.9.0 || ~2.10.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "StarringJane\\MultiSelectSwatch\\": ""
+    }
+  }
+}
