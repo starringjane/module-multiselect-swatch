@@ -1,5 +1,5 @@
 # Magento 2 Multiselect Swatches
-Adds the posibility to add an attribute where multiple swatches can be selected in the backoffice.
+Adds the possibility to add an attribute where multiple swatches can be selected in the backoffice.
 
 Based on [repository](https://github.com/pmclain/module-multiselect-swatch). Refactored to work with ElasticSuite (Smile-SA/elasticsuite).
 
