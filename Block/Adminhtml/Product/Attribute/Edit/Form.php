@@ -10,7 +10,7 @@ class Form extends \Magento\Swatches\Block\Adminhtml\Product\Attribute\Edit\Form
      * @param array $values
      * @return $this
      */
-    public function addValues(array $values)
+    public function addValues($values)
     {
         if (!is_array($values)) {
             return $this;
