@@ -4,9 +4,9 @@
   "type": "magento2-module",
   "license": "OSL-3.0",
   "require": {
-    "php": "~7.4.0",
+    "php": "~7.4.0|~8.1.0|~8.2.0"
     "magento/framework": "*",
-    "smile/module-elasticsuite-swatches": "~2.8.0 || ~2.9.0 || ~2.10.0"
+    "smile/module-elasticsuite-swatches": "~2.8.0 || ~2.9.0 || ~2.10.0 || ~2.11.0"
   },
   "autoload": {
     "files": [
