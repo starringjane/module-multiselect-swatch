@@ -10,11 +10,9 @@ use StarringJane\MultiSelectSwatch\Model\Swatch;
 
 class AddMultiSelectSwatchType implements ObserverInterface
 {
-    protected Manager $moduleManager;
-
-    public function __construct(Manager $moduleManager)
-    {
-        $this->moduleManager = $moduleManager;
+    public function __construct(
+        protected Manager $moduleManager
+    ) {
     }
 
     public function execute(EventObserver $observer): void
